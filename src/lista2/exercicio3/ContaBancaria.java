@@ -66,6 +66,7 @@ public class ContaBancaria {
 		return false;
 	}
 	
+	//resposta letra e
 	public ArrayList<String> getTransacoesRecentes(){
 		int numeroTransacoes = this.historicoTransacoes.size();
 		if(numeroTransacoes <= 3) 
